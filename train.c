@@ -173,7 +173,7 @@ void input_passenger(int x)
 void print_detail_First_class(int x)
 {
     printf("Amount : $%d\n",x);
-    printf("Seats Allocated in %s : ",com1[rand()%2]);
+    // printf("Seats Allocated in %s : ",com1[rand()%2]);
     print_seats(no_of_passengers);
     printf("seat\nCustomer care : 8015978080\n");
     printf("\n\tPassenger Details...\n");
@@ -182,7 +182,7 @@ void print_detail_First_class(int x)
 void print_detail_Second_class(int x)
 {
     printf("Amount : $%d\n",x);
-    printf("Seats Allocated in %s : ",com1[rand()%6]);
+    // printf("Seats Allocated in %s : ",com1[rand()%6]);
     print_seats(no_of_passengers);
     printf("seat\nCustomer care : 8015978080\n");
     printf("\n\tPassenger Details...\n");
